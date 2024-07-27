@@ -15,12 +15,14 @@
 
 ## Items in order
 
-- [1. Post install](post-install.md)
-- [2. Configure the NVIDIA Driver](configure-nvidia.md)
-- [3. Configure the AMD Driver](configure-amd.md)
-- [4. Bcdedit](bcdedit.md)
-- [5. Interrupt Affinity Tool](affinity.md)
-- [6. Network settings](network.md)
+- [1. [Post install](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/post-install.md)
+- [2. [Configure the NVIDIA Driver](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/configure-nvidia.md)
+- [3. [Configure the AMD Driver](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/configure-amd)
+- [4. [Bcdedit](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/bcdedit.md)
+- [5. [Interrupt Affinity Tool](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/affinity.md)
+- [6. [Network Settings](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/network.md)
+- [7. [Registry Options](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/registry.md)
+- [7. [Image Customization](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/contents/image-customization.md)
 
 ## Credits
 - Special thanks to enthusiasts who freely share their research, programming skills, customizations and tutorials, provide tests and technical information [Amit](https://twitter.com/amitxv), [Bored](https://twitter.com/Bra1nlet), [Calypto](https://twitter.com/CaIypto), [CatGamerOP](https://twitter.com/CatGamerOP), [Chris Titus Tech](https://twitter.com/christitustech), [Melody](https://sites.google.com/view/melodystweaks/), [Imribiy](https://twitter.com/imribiy), [Phlegm](https://twitter.com/getggos), [TenForums](https://www.tenforums.com/), [Timecard](https://github.com/djdallmann/GamingPCSetup), and others.
