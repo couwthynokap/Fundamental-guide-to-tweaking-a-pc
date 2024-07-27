@@ -20,9 +20,9 @@ setup.exe
 
 - Open CMD and enter the command below to disable telemetry
 
-    ```bat
-    reg add "HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\Startup\SendTelemetryData" /t REG_DWORD /d "0" /f
-    ```
+```bat
+reg add "HKLM\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\Startup\SendTelemetryData" /t REG_DWORD /d "0" /f
+```
 
 - Run the setup.exe file and install the driver.
 
@@ -66,7 +66,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08
 
 - Low Latency Mode - On/Ultra
 
-    > If a game supports the NVIDIA Reflex Low Latency mode, we recommend using that mode over the Ultra Low Latency mode in the driver. However, if you leave both on, the Reflex Low Latency mode will take higher priority automatically for you ([1](https://www.nvidia.com/en-gb/geforce/news/reflex-low-latency-platform))
+> If a game supports the NVIDIA Reflex Low Latency mode, we recommend using that mode over the Ultra Low Latency mode in the driver. However, if you leave both on, the Reflex Low Latency mode will take higher priority automatically for you ([1](https://www.nvidia.com/en-gb/geforce/news/reflex-low-latency-platform))
 
 - Power management mode - Prefer maximum performance
 
@@ -89,6 +89,7 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08
 ## GameBAR/GameDVR Config optimize
 
 > [!CAUTION]
+> It is better to test these parameters
  ```
 Windows Registry Editor Version 5.00
 
