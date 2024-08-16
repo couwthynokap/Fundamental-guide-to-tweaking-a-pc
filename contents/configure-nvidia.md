@@ -157,19 +157,10 @@ Windows Registry Editor Version 5.00
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\Global\Startup\SendTelemetryData]
-@=00000000
+@=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\Startup]
 "SendTelemetryData"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\Global\NVTweak]
-"DisplayPowerSaving"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Global\NVTweak]
-"DisplayPowerSaving"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\NvControlPanel2\Client]
-"OptInOrOutPreference"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS]
 "EnableGR535"=dword:00000000
@@ -177,21 +168,11 @@ Windows Registry Editor Version 5.00
 "EnableRID64640"=dword:00000000
 "EnableRID66610"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers]
-"DisableMultiSourceMPOCheck"=dword:00000001
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Scheduler]
 "DisableWriteCombining"=dword:00000001
 "DisablePreemption"=dword:00000001
-"EnablePreemption"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power]
-"ComputePreemption"=dword:00000000
-"EnableCEPreemption"=dword:00000000
-"EnablePreemption"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm]
-"EnableCEPreemption"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Parameters]
 "DisablePreemption"=dword:00000001
 "DisableWriteCombining"=dword:00000001
 "EnablePerformanceMode"=dword:00000001
@@ -202,8 +183,6 @@ Windows Registry Editor Version 5.00
 "RMDisableRCOnDBE"=dword:00000001
 "RM1441072"=dword:00000001
 "RMAERRHandling"=dword:00000000
-"DisableBlockWrite"=dword:00000000
-"ComputePreemption"=dword:00000000
 "EnablePreemption"=dword:00000000
 "DisableWriteCombining"=dword:00000001
 "DisableAsyncPstates"=dword:00000001
@@ -219,8 +198,6 @@ Windows Registry Editor Version 5.00
 "RMDisableRCOnDBE"=dword:00000001
 "RM1441072"=dword:00000001
 "RMAERRHandling"=dword:00000000
-"DisableBlockWrite"=dword:00000000
-"ComputePreemption"=dword:00000000
 "EnablePreemption"=dword:00000000
 "DisableWriteCombining"=dword:00000001
 "DisableAsyncPstates"=dword:00000001
