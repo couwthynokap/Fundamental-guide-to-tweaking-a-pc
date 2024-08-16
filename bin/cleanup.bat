@@ -33,15 +33,15 @@ rd /s /q "%userprofile%Recycle Bin"
 md "%userprofile%Recycle Bin"
 compact /c /s C: 
 compact /c /s "%systemdrive%"
-reg delete "HKLMSoftwareMicrosoftWindowsCurrentVersionHotStart" /f >NUL 2>&1
-reg delete "HKLMSoftwareMicrosoftWindowsCurrentVersionSidebar" /f >NUL 2>&1
-reg delete "HKLMSoftwareMicrosoftWindowsCurrentVersionTelephony" /f >NUL 2>&1
-reg delete "HKCUSoftwareMicrosoftWindowsCurrentVersionScreensavers" /f >NUL 2>&1
-reg delete "HKCUPrinters" /f >NUL 2>&1
-reg delete "HKLMSYSTEMControlSet001ControlPrint" /f >NUL 2>&1
-reg delete "HKLMSYSTEMControlSet002ControlPrint" /f >NUL 2>&1
-reg delete "HKLMSoftwareMicrosoftWindows NTCurrentVersionFont Drivers" /v "Adobe Type Manager" /f >NUL 2>&1
-reg delete "HKLMSystemControlSet001ControlTerminal ServerWdsrdpwd" /v "StartupPrograms" /f >NUL 2>&1
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\HotStart" /f >NUL 2>&1
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Sidebar" /f >NUL 2>&1
+reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Telephony" /f >NUL 2>&1
+reg delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Screensavers" /f >NUL 2>&1
+reg delete "HKCU\Printers" /f >NUL 2>&1
+reg delete "HKLM\SYSTEM\ControlSet001\Control\Print" /f >NUL 2>&1
+reg delete "HKLM\SYSTEM\ControlSet002\Control\Print" /f >NUL 2>&1
+reg delete "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Font Drivers" /v "Adobe Type Manager" /f >NUL 2>&1
+reg delete "HKLM\System\ControlSet001\Control\Terminal Server\Wdsrdpwd" /v "StartupPrograms" /f >NUL 2>&1
 DISM /Online /Remove-Capability /CapabilityName:Browser.InternetExplorer~~0.0.11.0 /norestart /quiet >NUL 2>&1
 DISM /Online /Remove-Capability /CapabilityName:MathRecognizer0.0.1.0 /norestart /quiet >NUL 2>&1
 DISM /Online /Remove-Capability /CapabilityName:Microsoft.Windows.PowerShell.ISE0.0.1.0 /norestart /quiet >NUL 2>&1
