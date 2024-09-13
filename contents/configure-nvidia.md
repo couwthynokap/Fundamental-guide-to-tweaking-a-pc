@@ -257,4 +257,4 @@ Windows Registry Editor Version 5.00
 > [!CAUTION]
 > 📊 **Do not** blindly follow the recommendations in this section. **Do** benchmarks of said changes to ensure that they result in positive performance gains, as every system behaves differently and changes can unintentionally degrade performance.
 
-- Download and extract [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) Please download my [personal profile]([https://drive.google.com/file/d/18PiWZ9HR8BPmGbdr5MyJzn8fwDlbCoxW/view?usp=sharing](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/bin/base-nvidia-settings.nip)) and apply it.
+- Download and extract [NVIDIA Profile Inspector](https://github.com/Orbmu2k/nvidiaProfileInspector) Please download my [personal profile](https://github.com/couwthynokap/Fundamental-guide-to-tweaking-a-pc/blob/main/bin/base-nvidia-settings.nip) and apply it.
